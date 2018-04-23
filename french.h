@@ -25,4 +25,5 @@
 #define et &&
 #define ou ||
 #define renvoie return
-
+#define au_cas_où ?
+#define ou_bien :
