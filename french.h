@@ -6,6 +6,7 @@
 */
 
 #pragma once
+#include <sys/types.h>
 
 #define principal main
 
@@ -17,6 +18,9 @@
 #define tailles_t ssize_t
 #define FICHIER FILE
 #define NUL NULL
+#define statique static
+#define déftype typedef
+#define taillede sizeof
 
 #define tantque while
 #define pour for
@@ -26,3 +30,5 @@
 #define ou ||
 #define renvoie return
 
+néant *allocmem(taille_t taille);
+néant libérer(néant *pointeur);
