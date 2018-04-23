@@ -32,3 +32,6 @@
 
 néant *allocmem(taille_t taille);
 néant libérer(néant *pointeur);
+entier ouvrir(const néant *chemin, entier infos);
+entier créer(const néant *chemin, mode_t mode);
+entier fermer(entier df);
