@@ -27,3 +27,4 @@
 #define renvoie return
 #define au_cas_où ?
 #define ou_bien :
+#define taille_de sizeof
