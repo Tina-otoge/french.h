@@ -29,3 +29,9 @@
 #define et &&
 #define ou ||
 #define renvoie return
+#define au_cas_où ?
+#define ou_bien :
+
+#define ouvrir(pathname, flags) (open(pathname, flags))
+#define allouer(size) (malloc(size))
+#define libérer(ptr) (free(ptr))
