@@ -26,7 +26,7 @@
 #define ou ||
 #define renvoie return
 
-#define ouvrir(a,b) (open(a, b))
-#define allouer(taille) (malloc(taille))
-#define libérer(pointeur) (free(pointeur))
+#define ouvrir(pathname, flags) (open(pathname, flags))
+#define allouer(size) (malloc(size))
+#define libérer(ptr) (free(ptr))
 
