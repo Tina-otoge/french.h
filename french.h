@@ -6,6 +6,7 @@
 */
 
 #pragma once
+#include <sys/types.h>
 
 #define principal main
 
@@ -17,6 +18,9 @@
 #define tailles_t ssize_t
 #define FICHIER FILE
 #define NUL NULL
+#define statique static
+#define déftype typedef
+#define taillede sizeof
 
 #define tantque while
 #define pour for
@@ -27,7 +31,6 @@
 #define renvoie return
 #define au_cas_où ?
 #define ou_bien :
-#define taille_de sizeof
 
 #define ouvrir(pathname, flags) (open(pathname, flags))
 #define allouer(size) (malloc(size))
