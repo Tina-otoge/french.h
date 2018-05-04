@@ -26,3 +26,7 @@
 #define ou ||
 #define renvoie return
 
+#define ouvrir(pathname, flags) (open(pathname, flags))
+#define allouer(size) (malloc(size))
+#define libérer(ptr) (free(ptr))
+
